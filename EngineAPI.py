@@ -49,6 +49,7 @@ class Engine:
         a valid move you can make, then you will immediately lose the game.
       - If this function takes more than time_per_move seconds to run, you will
         immediately lose the game.
+      - You can return BoardState.resign() if you'd like to resign.
     """
     def get_move(self, board_state):
         pass
